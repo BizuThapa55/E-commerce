@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style.css" type="text/css">
+ 
+  <title>Ecom</title>
+ 
+</head>
+	<style>
+    body{
+      background-color:#E6E6FA ;
+    
+
+	}
+  
+</style>
+<body>
+<div class="div1">
+	
+  <div class="div2">
+   
+  	<div class="div3">
+      <div class="overlay-form">
+  <div class="close-btn" onclick="toggleForm()">&times;</div>
+  <h1>Create a new account</h1>
+  <p>Join our community. Let's set up your account</p>
+  <div class="form-element">
+    <label for="fullname">Fullname</label>
+    <input type="text" id="fullname">
+  </div>
+  <div class="form-element">
+    <label for="email">Email</label>
+    <input type="email" id="email">
+  </div>
+  <div class="form-element">
+    <label for="password-1">Password</label>
+    <input type="password" id="password-1">
+  </div>
+  <div class="form-element">
+    <label for="password-2">Confirm password</label>
+    <input type="password" id="password-2">
+  </div>
+  <div class="form-element">
+    <button>Signup</button>
+  </div>
+</div>
+<div class="center">
+  <button onclick="toggleForm()">Signup</button>
+</div>
+      <div class="logo">
+        <img src="Compact_Logo_Bright_1024x.png" style="height:110px;width:110px;">
+      </div>
+      <div class="ecomname">
+       <a href="index2.html" style="text-decoration: none;color:#1d435a;">OTAKU</a>
+    
+      
+
+      </div>
+      <div class="search">
+        <input type="text" class="searchTerm">
+        <button type="submit" class="searchButton">
+        <i class="fa fa-search"></i>
+        </button>
+
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-youtube"></a>
+            <a href="#" class="fa fa-instagram"></a>
+    </div>
+  	
+  	
+  	<div class="div4">
+  		<div class="div41">
+  			<a href="#">Electronic Devices</a>
+  			<a href="#">Health & Beauty</a>
+  			<a href="#">Babies & Toys</a>
+  			<a href="#">Groceries & Pets</a>
+  			<a href="#">Home & Lifestyle</a>
+  			<a href="#">Women's Fashion</a>
+  			<a href="#">Men's Fashion</a>
+  			<a href="#">Sports & Outdoor</a>        
+      <div class="news">
+        <b align=center>Demon Slayer Hits New Sales Record</b>
+        <p>Demon Slayer's manga, with the arrival of the final chapter of the manga, has sold around 120 million copies, both physically and digitally, around the world and definitely earned its place as one of the highest selling series in the world of Shonen..<span id="dots">...</span>
+
+          <span id="ReadMore">Demon Slayer's first feature length film, Mugen Train, is shattering records in Japan and has pulled over $220 million USD over the course of its time in theaters, but the franchise isn't only breaking new ground in the cinemas, but also via its manga which ended earlier this year. With the final volume of the printed story created by Koyoharu Gotoge telling what might be the final story of Tanjiro, Nezuko, and their demon slaying comrades, fans are waiting to see when the next installment of the anime adaptation of the series will be brought to life!</span>
+          </p>
+          
+      </div>
+  		</div>
+  		<div class="div42">
+  			<div class="imgfile">
+        <div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="unamed2.png" style="width:250%">
+  <img class="mySlides" src="unamed3.jpg" style="width:250%">
+  <img class="mySlides" src="unamed4.jpg" style="width:250%">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+
+function toggleForm(){
+  document.body.classList.toggle('activeForm');
+}
+
+</script>
+<div class="bannerRibbon">
+    <img src="imageedit_17_4757345105.png" style="height: 150px;"/>
+  </div>
+        
+        <div class="div421">
+         <div class="zoom ">
+         <a href="index2.html">
+          <img src="Photo1.jpg" alt=" " class="item">
+       </a>
+       </div>
+            <p class="h5">Re:ZERO - Starting Life In Another World - Rem Espresto Texture Figure</p>
+              <p class="h6"><b>Price: Rs.2800</b></p>
+        </div>
+        <div class="div421">
+          <div class="zoom ">
+          <img src="Photo2.jpg" class="item">
+        </div>
+            <p class="h5">My Hero Academia Deku Fist T-Shirt</p>
+              <p class="h6"><b>Price: Rs.2500</b></p>
+            </div>
+        <div class="div421" >
+          <div class="zoom ">
+          <img src="Photo3.jpg" class="item">
+        </div>
+            <p class="h5">Demon Slayer - Kyojuro Rengoku Lookup Figure</p>
+              <p class="h6"><b>Price: Rs.4000</b></p>
+        </div>
+        <div class="div421" >
+          <div class="zoom ">
+          <img src="Photo4.jpg" class="item">
+        </div>
+        <div class="div5">
+     follow otaku
+    </div>
+ </div>
+</div>
+
+</body>
+</html>
